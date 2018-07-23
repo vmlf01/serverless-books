@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true
+}

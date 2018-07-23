@@ -1,0 +1,330 @@
+[
+    {
+        "id": "49251d80-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Chinua Achebe"
+    },
+    {
+        "id": "49251d81-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Hans Christian Andersen"
+    },
+    {
+        "id": "49251d82-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Dante Alighieri"
+    },
+    {
+        "id": "49251d83-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Unknown"
+    },
+    {
+        "id": "49251d84-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Jane Austen"
+    },
+    {
+        "id": "49251d85-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Honoré de Balzac"
+    },
+    {
+        "id": "49251d86-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Samuel Beckett"
+    },
+    {
+        "id": "49251d87-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Giovanni Boccaccio"
+    },
+    {
+        "id": "49251d88-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Jorge Luis Borges"
+    },
+    {
+        "id": "49251d89-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Emily Brontë"
+    },
+    {
+        "id": "49251d8a-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Albert Camus"
+    },
+    {
+        "id": "49251d8b-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Paul Celan"
+    },
+    {
+        "id": "49251d8c-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Louis-Ferdinand Céline"
+    },
+    {
+        "id": "49251d8d-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Miguel de Cervantes"
+    },
+    {
+        "id": "49251d8e-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Geoffrey Chaucer"
+    },
+    {
+        "id": "49251d8f-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Anton Chekhov"
+    },
+    {
+        "id": "49254490-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Joseph Conrad"
+    },
+    {
+        "id": "49254491-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Charles Dickens"
+    },
+    {
+        "id": "49254492-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Denis Diderot"
+    },
+    {
+        "id": "49254493-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Alfred Döblin"
+    },
+    {
+        "id": "49254494-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Fyodor Dostoevsky"
+    },
+    {
+        "id": "49254495-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "George Eliot"
+    },
+    {
+        "id": "49254496-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Ralph Ellison"
+    },
+    {
+        "id": "49254497-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Euripides"
+    },
+    {
+        "id": "49254498-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "William Faulkner"
+    },
+    {
+        "id": "49254499-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Gustave Flaubert"
+    },
+    {
+        "id": "4925449a-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Federico García Lorca"
+    },
+    {
+        "id": "4925449b-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Gabriel García Márquez"
+    },
+    {
+        "id": "4925449c-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Johann Wolfgang von Goethe"
+    },
+    {
+        "id": "4925449d-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Nikolai Gogol"
+    },
+    {
+        "id": "4925449e-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Günter Grass"
+    },
+    {
+        "id": "4925449f-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "João Guimarães Rosa"
+    },
+    {
+        "id": "492544a0-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Knut Hamsun"
+    },
+    {
+        "id": "492544a1-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Ernest Hemingway"
+    },
+    {
+        "id": "492544a2-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Homer"
+    },
+    {
+        "id": "492544a3-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Henrik Ibsen"
+    },
+    {
+        "id": "492544a4-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "James Joyce"
+    },
+    {
+        "id": "492544a5-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Franz Kafka"
+    },
+    {
+        "id": "492544a6-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Kālidāsa"
+    },
+    {
+        "id": "492544a7-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Yasunari Kawabata"
+    },
+    {
+        "id": "492544a8-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Nikos Kazantzakis"
+    },
+    {
+        "id": "492544a9-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "D. H. Lawrence"
+    },
+    {
+        "id": "492544aa-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Halldór Laxness"
+    },
+    {
+        "id": "492544ab-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Giacomo Leopardi"
+    },
+    {
+        "id": "492544ac-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Doris Lessing"
+    },
+    {
+        "id": "492544ad-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Astrid Lindgren"
+    },
+    {
+        "id": "492544ae-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Lu Xun"
+    },
+    {
+        "id": "492544af-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Naguib Mahfouz"
+    },
+    {
+        "id": "492544b0-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Thomas Mann"
+    },
+    {
+        "id": "492544b1-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Herman Melville"
+    },
+    {
+        "id": "492544b2-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Michel de Montaigne"
+    },
+    {
+        "id": "492544b3-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Elsa Morante"
+    },
+    {
+        "id": "492544b4-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Toni Morrison"
+    },
+    {
+        "id": "492544b5-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Murasaki Shikibu"
+    },
+    {
+        "id": "492544b6-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Robert Musil"
+    },
+    {
+        "id": "492544b7-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Vladimir Nabokov"
+    },
+    {
+        "id": "492544b8-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "George Orwell"
+    },
+    {
+        "id": "492544b9-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Ovid"
+    },
+    {
+        "id": "492544ba-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Fernando Pessoa"
+    },
+    {
+        "id": "492544bb-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Edgar Allan Poe"
+    },
+    {
+        "id": "492544bc-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Marcel Proust"
+    },
+    {
+        "id": "492544bd-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "François Rabelais"
+    },
+    {
+        "id": "492544be-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Juan Rulfo"
+    },
+    {
+        "id": "492544bf-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Rumi"
+    },
+    {
+        "id": "492544c0-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Salman Rushdie"
+    },
+    {
+        "id": "492544c1-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Saadi"
+    },
+    {
+        "id": "492544c2-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Tayeb Salih"
+    },
+    {
+        "id": "492544c3-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "José Saramago"
+    },
+    {
+        "id": "492544c4-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "William Shakespeare"
+    },
+    {
+        "id": "492544c5-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Sophocles"
+    },
+    {
+        "id": "492544c6-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Stendhal"
+    },
+    {
+        "id": "492544c7-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Laurence Sterne"
+    },
+    {
+        "id": "492544c8-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Italo Svevo"
+    },
+    {
+        "id": "492544c9-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Jonathan Swift"
+    },
+    {
+        "id": "492544ca-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Leo Tolstoy"
+    },
+    {
+        "id": "492544cb-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Mark Twain"
+    },
+    {
+        "id": "492544cc-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Valmiki"
+    },
+    {
+        "id": "492544cd-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Virgil"
+    },
+    {
+        "id": "492544ce-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Vyasa"
+    },
+    {
+        "id": "492544cf-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Walt Whitman"
+    },
+    {
+        "id": "492544d0-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Virginia Woolf"
+    },
+    {
+        "id": "492544d1-8de0-11e8-ab0a-6b5d6c5c9d73",
+        "name": "Marguerite Yourcenar"
+    }
+]

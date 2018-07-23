@@ -1,0 +1,45 @@
+{
+    "name": "serverless-books",
+    "version": "1.0.0",
+    "description": "A Node.js Serverless books list service",
+    "main": "handlers/books.js",
+    "scripts": {
+        "deploy": "sls deploy -v",
+        "start:offline": "sls dynamodb install && sls offline start",
+        "test": "jest"
+    },
+    "author": "",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "devDependencies": {
+        "aws-sdk": "2.279.1",
+        "aws-sdk-mock": "4.0.0",
+        "babel-core": "6.26.3",
+        "babel-loader": "7.1.5",
+        "babel-plugin-source-map-support": "2.0.1",
+        "babel-plugin-transform-runtime": "6.23.0",
+        "babel-preset-env": "1.7.0",
+        "babel-preset-stage-3": "6.24.1",
+        "eslint": "5.2.0",
+        "eslint-config-prettier": "2.9.0",
+        "eslint-plugin-prettier": "2.6.2",
+        "jest": "23.4.1",
+        "prettier": "1.13.7",
+        "serverless": "1.28.0",
+        "serverless-dynamodb-local": "0.2.30",
+        "serverless-jest-plugin": "0.1.6",
+        "serverless-offline": "3.25.6",
+        "serverless-webpack": "5.2.0",
+        "webpack": "4.16.1"
+    },
+    "dependencies": {
+        "babel-runtime": "6.26.0",
+        "bluebird": "3.5.1",
+        "serverless-dynamodb-client": "0.0.2",
+        "source-map-support": "0.5.6",
+        "uuid": "3.3.2"
+    }
+}
