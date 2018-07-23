@@ -44,6 +44,7 @@ provider:
     # ${file(env.yml):${self:provider.stage}}
     AUTHORS_TABLE: Authors-${opt:stage, self:provider.stage}
     BOOKS_TABLE: Books-${opt:stage, self:provider.stage}
+    AUTHOR_BOOKS_INDEX: author_books_by_year-${opt:stage, self:provider.stage}
   iamRoleStatements:
     - Effect: Allow
       Action:
@@ -68,13 +69,13 @@ functions:
   #     - http:
   #         path: authors
   #         method: get
-  # listAuthorBooks:
-  #   handler: src/handlers/books.getByAuthor
-  #   description: List all books by specified author
-  #   events:
-  #     - http:
-  #         path: books/author/{author}
-  #         method: get
+  listAuthorBooks:
+    handler: src/handlers/books.getByAuthor
+    description: List all books by specified author
+    events:
+      - http:
+          path: books/author/{author}
+          method: get
 
 
 resources:
@@ -105,6 +106,12 @@ resources:
           -
             AttributeName: "id"
             AttributeType: "S"
+          -
+            AttributeName: "authorId"
+            AttributeType: "S"
+          -
+            AttributeName: "year"
+            AttributeType: "N"
         KeySchema:
           -
             AttributeName: "id"
@@ -115,3 +122,18 @@ resources:
         # StreamSpecification:
         #   StreamViewType: "NEW_AND_OLD_IMAGES"
         TableName: ${self:provider.environment.BOOKS_TABLE}
+        GlobalSecondaryIndexes:
+          - IndexName: ${self:provider.environment.AUTHOR_BOOKS_INDEX}
+            KeySchema:
+            - AttributeName: "authorId"
+              KeyType: HASH
+            - AttributeName: "year"
+              KeyType: RANGE
+            Projection:
+              ProjectionType: ALL
+              # NonKeyAttributes:
+              #   - author
+              # ProjectionType: INCLUDE
+            ProvisionedThroughput:
+              ReadCapacityUnits: 1
+              WriteCapacityUnits: 1

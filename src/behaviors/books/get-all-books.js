@@ -1,12 +1,3 @@
-export const getAllBooks = async (db, { BOOKS_TABLE }) => {
-    const booksParams = {
-        TableName: BOOKS_TABLE,
-    };
-
-    // const tableParams = {
-    //     TableName: process.env.CANDIDATE_TABLE,
-    //     ProjectionExpression: 'id, fullname, email',
-    // };
-    const results = await db.scan(booksParams);
-    return results.Items;
+export const getAllBooks = async (db, { config, startAt, limit }) => {
+    return await db.queryPage(config.BOOKS_TABLE, {}, startAt, limit || 10);
 };
