@@ -6,7 +6,8 @@
     "scripts": {
         "deploy": "sls deploy -v",
         "start:offline": "sls dynamodb install && sls offline start",
-        "test": "jest"
+        "test": "jest",
+        "tdd": "jest --watch"
     },
     "author": "",
     "license": "MIT",

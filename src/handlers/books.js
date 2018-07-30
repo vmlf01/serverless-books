@@ -1,5 +1,7 @@
 import { db } from '../helpers/dynamodb-client';
 import { success, failure } from '../helpers/generate-response';
+import { getPageQueryParams } from '../helpers/get-page-query-params';
+
 import { getAllBooks } from '../behaviors/books/get-all-books';
 import { getAllBooksFromAuthor } from '../behaviors/books/get-books-from-author';
 
@@ -31,13 +33,3 @@ export const getByAuthor = async event => {
         return failure(500, ex);
     }
 };
-
-function getPageQueryParams(event) {
-    const { limit, startAt } = event.queryStringParameters || {};
-    const params = {
-        config: process.env,
-        startAt,
-        limit,
-    };
-    return params;
-}

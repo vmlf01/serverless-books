@@ -6,7 +6,7 @@ export const success = (statusCode = 200, body = {}) => {
 
 export const failure = (statusCode, error) => {
     const errorMessage = (error && error.message) || 'Unknown server error';
-    console.log('ERROR', statusCode, errorMessage);
+    console.log('ERROR', statusCode, errorMessage); // eslint-disable-line no-console
     return generateResponseObject(statusCode, {
         code: statusCode,
         message: errorMessage,
