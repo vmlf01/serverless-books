@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "efa61221-b684-4ff1-a08f-de48e6df8579",
+		"name": "Serverless Books",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"_postman_id": "6a8aef12-e5c5-47dd-b9bc-5ed6c1a4e055",
+			"name": "Add Book",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"country\":\"Norway\",\n    \"year\":1899,\n    \"author\":\"Henrik Ibsen\",\n    \"link\":\"https://en.wikipedia.org/wiki/When_We_Dead_Awaken\",\n    \"language\":\"Norwegian\",\n    \"title\":\"When We Dead Awaken\",\n    \"authorId\":\"492544a3-8de0-11e8-ab0a-6b5d6c5c9d73\"\n}"
+				},
+				"url": {
+					"raw": "{{endpoint}}/books",
+					"host": [
+						"{{endpoint}}"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "874ff8fe-fce1-419d-8da3-d1fe81c92fee",
+			"name": "Add Book - Missing Fields",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"country\":\"Norway\",\n    \"year\":1899,\n    \"author\":\"Henrik Ibsen\",\n    \"link\":\"https://en.wikipedia.org/wiki/When_We_Dead_Awaken\",\n    \"language\":\"Norwegian\",\n    \"title\":\"When We Dead Awaken\",\n    \"authorId\":\"492544a3-8de0-11e8-ab0a-6b5d6c5c9d73\"\n}"
+				},
+				"url": {
+					"raw": "{{endpoint}}/books",
+					"host": [
+						"{{endpoint}}"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "d805dfa7-e3c4-4073-83ba-0ae44b9976c8",
+			"name": "Get Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}

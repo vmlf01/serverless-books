@@ -76,6 +76,13 @@ functions:
       - http:
           path: books/author/{author}
           method: get
+  addBook:
+    handler: src/handlers/books.addBook
+    description: Adds a new book
+    events:
+      - http:
+          path: books
+          method: post
 
 
 resources:

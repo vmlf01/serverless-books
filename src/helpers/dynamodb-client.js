@@ -80,6 +80,16 @@ function deserializeNextPageParameter(startAt) {
     );
 }
 
+function create(table, document) {
+    const params = {
+        TableName: table,
+        Item: document,
+    };
+
+    return docClient.put(params).promise();
+}
+
 export const db = {
     queryPage,
+    create,
 };
